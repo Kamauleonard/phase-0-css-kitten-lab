@@ -1,39 +1,39 @@
-/* Select the image with a class of kitty-1 */
-write-your-selector-here {
+/* Positioning for Kitty 1 */
+.kitty-1 {
   position: absolute;
   z-index: 1;
-  top: 276px;
-  left: 129px;
+  top: 300px; /* Adjust the top position as needed */
+  left: 150px; /* Adjust the left position as needed */
 }
 
-/* Select the image with id of kitty-2 */
-write-your-selector-here {
+/* Positioning for Kitty 2 */
+#kitty-2 {
   position: absolute;
   z-index: 2;
-  top: 212px;
-  left: 369px;
+  top: 300px; /* Adjust the top position as needed */
+  left: 250px; /* Adjust the left position as needed */
 }
 
-/* Select the image inside the element with an id of basket (using its descendent relationship) */
-write-your-selector-here {
-  position: absolute;
-  z-index: 5;
-  top: 291px;
-  left: 319px;
-}
-
-/* Select the image based on it being a sibling that follows immediately after the element with an id of ball (using adjacent sibling selector) */
-write-your-selector-here {
-  position: absolute;
-  z-index: 4;
-  top: 260px;
-  left: 455px;
-}
-
-/* Select the image that has an alt attribute value matching "Kitty 5" (using attribute selector) */
-write-your-selector-here {
+/* Positioning for Kitty 3 inside the basket */
+#basket {
   position: absolute;
   z-index: 3;
-  top: 217px;
-  left: 223px;
+  top: 60px; /* Adjust the top position as needed */
+  left: 250px; /* Adjust the left position as needed */
 }
+
+/* Positioning for Kitty 4 (sibling of #ball) */
+img {
+  position: absolute;
+  top: 200px; /* Adjust the top position as needed for approximately one meter */
+  left: 200px; /* Adjust the left position as needed */
+}
+
+
+/* Positioning for Kitty 5 */
+img[src="images/kitty-5.png"][alt="Kitty 5"] {
+  top: 180px; /* Adjust the top position as needed for about 0.5 meters */
+  left: 300px; /* Adjust the left position as needed */
+  z-index: 1;
+}
+
